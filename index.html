@@ -9,11 +9,42 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
-<body class="bg-gray-50 text-gray-800 *:px-60 overflow-x-hidden">
-    <nav class="fixed flex justify-center bg-white left-0 top-0 z-50 w-full py-2">
+<body class="bg-gray-50 text-gray-800 md:*:px-32 xl:*:px-60 overflow-x-hidden">
+    <nav
+        class="fixed flex flex-row-reverse md:flex-row md:justify-between w-full items-center justify-end top-0 left-0 z-50 py-4 bg-white px-6 gap-4">
+        <img src="./assets/images/logo-new.png" alt="" class="w-28 max-w-none">
+        <i class="bi bi-list text-2xl text-black md:hidden"></i>
+        <div
+            class="hidden xl:whitespace-nowrap md:flex items-center gap-8 *:font-semibold *:inline-flex *:items-center *:justify-center *:gap-4">
+            <a href="#" class="">
+                <i class="bi bi-list text-xl"></i>
+                <span class="text-sm">Menu</span>
+            </a>
+            <a href="#" class="">
+                <i class="bi bi-mortarboard-fill text-xl"></i>
+                <span class="text-sm">Program Studi</span>
+            </a>
+            <a href="#" class="">
+                <i class="bi bi-buildings text-xl"></i>
+                <span class="text-sm">Tentang kami</span>
+            </a>
+            <a href="#" class="">
+                <i class="bi bi-file-earmark-text-fill text-xl"></i>
+                <span class="text-sm">PMB</span>
+            </a>
+            <a href="" class="border-2 border-[#c4262b] text-[#c4262b] px-4 py-2">
+                <span class="text-sm">Info pendaftaran terbaru</span>
+            </a>
+        </div>
+    </nav>
+    <!-- <nav class="fixed flex md:justify-center bg-white left-0 top-0 z-50 w-full py-2">
         <div class="flex justify-between items-center px-6 w-full mx-auto scroll-mt-16">
-            <img src="./assets/images/logo.png" alt="" class="w-40">
-            <div class="flex items-center gap-8 *:font-semibold *:inline-flex *:items-center *:justify-center *:gap-4">
+            <img src="./assets/images/logo.png" alt="" class="w-72 lg:w-40 border-2 border-red-500">
+            <div class="inline md:hidden">
+                <i class="bi bi-list text-4xl"></i>
+            </div>
+            <div
+                class="hidden md:flex items-center gap-8 *:font-semibold *:inline-flex *:items-center *:justify-center *:gap-4">
                 <a href="#" class="">
                     <i class="bi bi-list text-xl"></i>
                     Menu
@@ -35,24 +66,30 @@
                 </a>
             </div>
         </div>
-    </nav>
-    <section id="header" class="h-screen flex items-center justify-center mb-10">
-        <div class="flex items-center justify-between gap-48">
-            <div class="text-gray-800 w-1/2 space-y-20">
-                <h2 class="text-6xl font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-                <p class="text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi earum laudantium odio
+    </nav> -->
+    <section id="header" class="h-screen w-full xl:flex xl:items-center xl:justify-center mb-10">
+        <div
+            class="flex flex-col-reverse items-center justify-center mt-20 xl:mt-0 xl:flex-row xl:items-center xl:justify-between gap-4 xl:gap-48">
+            <div class="text-gray-800 w-1/2 md:w-1/2 space-y-8 xl:space-y-20">
+                <h2 class="text-3xl xl:text-6xl font-semibold">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h2>
+                <p class="text-lg xl:text-2xl">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi earum laudantium
+                    odio
                     possimus nesciunt
                     hic illo, vitae natus iste non tempora consectetur cum? Commodi illum saepe impedit qui quos
-                    numquam!</p>
+                    numquam!
+                </p>
             </div>
-            <div class="w-1/2 object-center p-10">
+            <div class="w-4/5 md:w-1/2 object-center p-10 ">
                 <img src="https://placehold.net/4.png" alt=""
                     class="w-full rounded-sm rotate-3 shadow-2xl shadow-neutral-400">
             </div>
         </div>
     </section>
     <section id="about"
-        class="flex items-center justify-center text-white gap-24 py-40 relative overflow-hidden bg-[#c4262b] -rotate-2 *:rotate-2 -mx-5 mb-20">
+        class="flex flex-col items-center justify-center text-white gap-8 md:gap-24 py-32 md:py-40 relative overflow-hidden bg-[#c4262b] -rotate-2 *:rotate-2 -mx-32 md:-mx-5 mb-20">
         <div class="overflow-hidden rounded-4xl w-1/2 aspect-video object-cover z-20">
             <img src="https://placehold.net/4-800x600.png" alt="" class="w-full">
         </div>
